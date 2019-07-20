@@ -9,9 +9,9 @@ namespace BricksStore.Models
     {
         public IQueryable<Product> Products => new List<Product>
         {
-            new Product {Name="Kombajn kołowy", Price=780},
-            new Product {Name="Wesołe miasteczko", Price=1200},
-            new Product {Name="Taj Mahal", Price=1700}
+            new Product {Name="Kombajn kołowy", Category="Technic", Price=780, Description="Krótki opis..."},
+            new Product {Name="Wesołe miasteczko", Category="Creator", Price=1200},
+            new Product {Name="Taj Mahal", Category="Creator Expert", Price=1700}
         }.AsQueryable<Product>();
     }
 }
