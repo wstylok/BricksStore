@@ -1,12 +1,12 @@
-using System;
+﻿using System;
 using Xunit;
 
 namespace BricksStore.Tests
 {
-    public class UnitTest1
+    public class ProductControllerTests
     {
         [Fact]
-        public void Test1()
+        public void Can_Paginate()
         {
 
         }
